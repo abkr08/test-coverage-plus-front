@@ -1,0 +1,106 @@
+.code-block-container {
+	width: 100%;
+	margin: 20px auto;
+	text-align: left;
+	font-size: 18px;
+	height: 1000px;
+	overflow-x: hidden;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.code-block-container .action-btns-container {
+	align-self: end;
+  margin-bottom: 10px !important;
+}
+
+.code-block-container span:first-of-type {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 950px;
+}
+
+.code-block-container span:first-of-type::-webkit-scrollbar {
+	background-color: #1c1e25;
+}
+
+.code-block-container span:first-of-type::-webkit-scrollbar-thumb {
+	background-color: gray;
+}
+
+.upload-file-container {
+	text-align: center;
+}
+
+.upload-file-container {
+	width: 60%;
+	margin: 20px auto;
+}
+
+.dropzone {
+	border: 2px dashed black;
+	padding: 10px;
+	border-radius: 5px;
+	height: 300px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.dropzone p {
+	font-weight: 700;
+}
+
+.or-text {
+	margin-top: 20px;
+	display: block;
+	position: relative;
+	font-weight: bold;
+}
+
+.or-text:before {
+	content: '';
+	display: block;
+	height: 1px;
+	position: absolute;
+	width: 43%;
+	top: 50%;
+	left: 5%;
+	background-color: black;
+}
+
+.or-text:after {
+	content: '';
+	display: block;
+	height: 1px;
+	position: absolute;
+	width: 43%;
+	top: 50%;
+	right: 5%;
+	background-color: black;
+}
+
+label {
+	text-align: left;
+	font-size: 16px !important;
+	margin-top: 20px !important;
+}
+
+.buttons-container {
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-btns-container {
+	display: flex;
+  justify-content: space-between;
+}
+
+.nav-btn {
+	font-size: 1.5rem;
+	cursor: pointer;
+}
